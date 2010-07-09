@@ -1,0 +1,102 @@
+@import "http://ajax.googleapis.com/ajax/libs/dojo/1.4.1/dijit/themes/tundra/tundra.css";
+
+@import "typography.css";
+@import "../js/popup/popup.css";
+@import "../js/codeglass/resources/CodeGlass.css";
+@import "../js/codeglass/chromes/uxebu/uxebu.css";
+
+/*body, html {*/
+/*	margin: 0;*/
+/*	font: 90%/1.3636 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Corbel, Verdana, sans-serif;*/
+/*}*/
+
+h1, h2, h3, h4, h5 {
+	margin-top: 0;
+}
+
+.header {
+	background: url(../img/headerBg.png) center top no-repeat;
+	height: 60px;
+	border-bottom: 1px solid white;
+}
+
+	.header .userDocs {
+		background: url(../img/userDocs.png) no-repeat;
+		width: 105px;
+		height: 0;
+		padding-top: 27px;
+		overflow: hidden;
+		display: inline-block;
+		margin: 13px;
+	}
+
+	.header .logo {
+		background: url(../img/logoUxebu.png) no-repeat;
+		width: 77px;
+		height: 0;
+		padding-top: 32px;
+		overflow: hidden;
+		display: inline-block;
+		float: right;
+		margin: 10px;
+	}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0
+}
+
+.document {
+	float: left;
+	width: 660px;
+}
+
+.related {
+	margin-top: 48px;
+	padding: 10px;
+	border: 1px solid #666;
+	background: #fafafa;
+	float: right;
+	width: 200px;
+	margin-left: 40px;
+}
+
+.section {
+	margin-top: 28px;
+}
+
+/* Other */
+a.headerlink {
+    color: #c60f0f;
+    font-size: 0.8em;
+    padding: 0 4px 0 4px;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink,
+dt:hover > a.headerlink {
+    visibility: visible;
+}
+
+a.headerlink:hover {
+    background-color: #c60f0f;
+    color: white;
+}
+
+.lightbox {
+	border: 1px solid #666;
+	margin-bottom: 1em;
+	max-width: 500px;
+	cursor: pointer;
+}
+
+.lightboxContent {
+	max-width: 900px;
+}
