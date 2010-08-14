@@ -52,6 +52,12 @@ h1, h2, h3, h4, h5 {
 	width: 660px;
 }
 
+.footer {
+	clear: both;
+	text-align: center;
+	margin-top: 1em;
+}
+
 .related {
 	margin-top: 48px;
 	padding: 10px;
@@ -60,6 +66,23 @@ h1, h2, h3, h4, h5 {
 	float: right;
 	width: 200px;
 	margin-left: 40px;
+}
+
+.related ul {
+	margin: 0 0 20px 20px;
+	padding: 0;
+}
+
+.related p {
+	margin-bottom: 20px;
+}
+
+.related h3, .related h4 {
+	color: #666;
+	font-size: 16px;
+	line-height: 120%;
+	margin: 0px 0px 10px;
+	font-weight: normal;
 }
 
 .section {
